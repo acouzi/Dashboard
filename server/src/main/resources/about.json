@@ -1,0 +1,72 @@
+{
+  "client": {
+    "host": "localhost"
+  },
+  "server": {
+    "current_time": 1574031247,
+    "services": [{
+      "name": "weather",
+      "widgets": [{
+        "name": "city_temperature",
+        "description": "Display temperature for a city",
+        "params": [{
+          "name": "city" ,
+          "type": "string"
+        },{
+          "name": "unit",
+          "type": "string"
+        }]
+      },{
+        "name": "city_pollution",
+        "description": "Display air pollution for a city",
+        "params": [{
+          "name": "city",
+          "type": "string"
+        }]
+      }]
+    },{
+      "name": "trade",
+      "widgets": [{
+        "name": "markets_stock",
+        "description": "Displaying the last market stock for his symbol",
+        "params": [{
+          "name": "symbol",
+          "type": "string"
+        }]
+      }]
+    },{
+      "name": "youtube",
+      "widgets": [{
+        "name": "channel_sub",
+        "description": "Displaying the numbers of subscribers for a channel",
+        "params": [{
+          "name": "channel_name",
+          "type": "string"
+        }]
+      }]
+    },{
+      "name": "steam",
+      "widgets": [{
+        "name": "steam_game",
+        "description": "Displaying the numbers of players for a game",
+        "params": [{
+          "name": "game_id",
+          "type": "string"
+        }]
+      }]
+    },{
+      "name": "news",
+      "widgets": [{
+        "name": "latest_news",
+        "description": "Displaying 3 latest posts for a category and language",
+        "params": [{
+          "name": "category",
+          "type": "string"
+        },{
+          "name": "language",
+          "type": "string"
+        }]
+      }]
+    }]
+  }
+}
